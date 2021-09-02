@@ -293,7 +293,7 @@ class Landing extends React.Component {
                           </h6>
                           <p className="description mt-3">
                           Displaying Website for you to choose your favorite beast by viewing the beasts by the number of horns
-                          </p>
+                          </p> 
                           <input placeholder="301"></input>
                           <div>
                             <Badge color="success" pill className="mr-1">
