@@ -3,13 +3,13 @@ Netlify Link =
 
 Number and name of feature: Displaying information and making new account at trello and solving its required tickets 
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours 
 
-Start time: _____
+Start time: 12:50 pm
 
-Finish time: _____
+Finish time: 4:00 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 3 hours 
 
 
 
