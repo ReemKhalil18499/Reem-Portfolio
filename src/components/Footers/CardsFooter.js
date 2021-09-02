@@ -43,22 +43,22 @@ class CardsFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  {/* <Link to="/landing-page">
                     <CardImg
                       alt="..."
                       src={landing}
                     />
-                  </Link>
+                  </Link> */}
                 </Card>
               </Col>
               <Col className="mb-5 mb-lg-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
+                  {/* <Link to="/profile-page">
+                    <CardImg */}
+                       {/* alt="..." */}
+                      {/* // src={profile}
                     />
-                  </Link>
+                  </Link> */}
                 </Card>
               </Col>
             </Row>
@@ -67,11 +67,8 @@ class CardsFooter extends React.Component {
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for supporting ME !
                 </h3>
-                <h4 className="mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
-                </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button

@@ -19,12 +19,13 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+import cardImg from "assets/img/theme/reem1.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+
 
 // reactstrap components
 import {
@@ -79,15 +80,15 @@ class Landing extends React.Component {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
+                    
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Amazing Technological Solutions  {" "}
+                        <span>Most exciting parts in organizing your life and work better </span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      Allows you to access information the moment you need it, helps you buy and sell stuff easier, enables you to find the best price for the items you need.
+
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,13 +149,117 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            201 Project BusMall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Displaying three unique products by chance so that the viewers can pick a favorite.
                           </p>
+                          <input placeholder="201"></input>
+                          <div>
+                            <Badge color="primary" pill className="mr-1">
+                              design
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              system
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              creative
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            201 Project GuessingGame 
+                          </h6>
+                          <p className="description mt-3">
+                          this project shows a short brief for me and what is my top ten films i prefered. then shows how the user enter attempts corresponding to what i want and give him a grade according to its answers</p>
+                          <input placeholder="201"></input>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            301 Project Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                          Displaying Website for you to choose your favorite beast by viewing the beasts by the number of horns
+                          </p>
+                          <input placeholder="301"></input>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              business
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              vision
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              success
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+                          <h6 className="text-primary text-uppercase">
+                            201 Project Fast Auto 
+                          </h6>
+                          <p className="description mt-3">
+                          Displaying Cars comoany where u can buy rent and sell cars provided by our services 
+                          </p>
+                          <input placeholder="201"></input>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               design
@@ -184,13 +289,12 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project Horned Beasts
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Displaying Website for you to choose your favorite beast by viewing the beasts by the number of horns
                           </p>
+                          <input placeholder="301"></input>
                           <div>
                             <Badge color="success" pill className="mr-1">
                               business
@@ -220,13 +324,12 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 Project SalmonCookies 
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Displaying SalmonCookies Business, soon with franchises internationally, needs to calculate the number of cookies each location must make every day so that it can manage its supplies inventory and baking schedule. The number of cookies to make depends on the hours of operation 
                           </p>
+                          <input placeholder="401"></input>
                           <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
@@ -267,64 +370,19 @@ class Landing extends React.Component {
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
-                    </div>
-                    <h3>Awesome features</h3>
+                    <span class="iconify" data-icon="zmdi:graduation-cap"></span>
+                    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+                    
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    
+
+                    
+      </div>
+                    <h3>My Background</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      I have Graduated from LTUC as Civil Engineer student then worked as secretary for law office for two monthes, Worked as talemarketed at csc Beyond for one year, Studiead Software Development at LTUC for 6 months scholarship from ASAC 
                     </p>
                     <ul className="list-unstyled mt-5">
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-settings-gear-65" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-html5" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-satisfied" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
                     </ul>
                   </div>
                 </Col>
@@ -343,7 +401,7 @@ class Landing extends React.Component {
                     />
                     <blockquote className="card-blockquote">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns=""
                         className="svg-bg"
                         preserveAspectRatio="none"
                         viewBox="0 0 583 95"
@@ -359,43 +417,28 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        My Desire In Life
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        I would like to be able to give people the chance to donate to people in need using easiest technological system possible 
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="6">
-                  <div className="pl-md-5">
+                  <div >
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
+                    <i class="fa fa-heart" aria-hidden="true"></i>
                     </div>
-                    <h3>Our customers</h3>
-                    <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
-                    </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    <h3>Our Desire in Life</h3>
+                    <p> People will have the chance to express their creativity and existence through doing what they love and enspire to reach required goal and its becoming the best version of themselves
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      Stay Toned
                     </a>
                   </div>
                 </Col>
@@ -405,88 +448,7 @@ class Landing extends React.Component {
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
-                  <div className="position-relative pl-md-5">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={ill2}
-                    />
-                  </div>
-                </Col>
-                <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
-                    <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="ni ni-building text-primary" />
-                      </div>
-                    </div>
-                    <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
-                      <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
-                      </p>
-                    </div>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
+                
               </Row>
             </Container>
             {/* SVG separator */}
@@ -510,16 +472,16 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">Me</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                  I am aiming to work in a challenging environment, where I can gain professional expertise that will help me grow to gain a responsible
+leadership position, where I can contribute to the growth and success of this organization.
+
                   </p>
                 </Col>
               </Row>
               <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -646,7 +608,7 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
+                </Col> */}
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
@@ -657,8 +619,8 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
-                        <small className="h6 text-muted">Founder and CEO</small>
+                        <span className="d-block mb-1">Reem Khalil</span>
+                        <small className="h6 text-muted">Leader</small>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -693,82 +655,10 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg pt-0">
-            <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
-                <div className="p-5">
-                  <Row className="align-items-center">
-                    <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
-                      <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
-                      </p>
-                    </Col>
-                    <Col className="ml-lg-auto" lg="3">
-                      <Button
-                        block
-                        className="btn-white"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        Download React
-                      </Button>
-                    </Col>
-                  </Row>
-                </div>
-              </Card>
-            </Container>
+            
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
-                <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
-                  <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
-                  </p>
-                </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
+            
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
@@ -792,7 +682,7 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
+                      <h4 className="mb-1">Want to work with me?</h4>
                       <p className="mt-0">
                         Your project is very important to us.
                       </p>
